@@ -1,0 +1,60 @@
+# PartSelect Chat Agent - Requirements
+# This is a Node.js project. For Python projects, use requirements.txt
+# For Node.js, dependencies are managed via package.json
+
+# ============================================
+# Backend Dependencies (Node.js)
+# ============================================
+# Install via: cd backend && npm install
+express>=4.18.2
+cors>=2.8.5
+dotenv>=16.3.1
+axios>=1.6.2
+
+# ============================================
+# Frontend Dependencies (Node.js)
+# ============================================
+# Install via: cd frontend && npm install
+react>=18.2.0
+react-dom>=18.2.0
+axios>=1.6.2
+vite>=5.0.8
+@vitejs/plugin-react>=4.2.1
+tailwindcss>=3.3.6
+autoprefixer>=10.4.16
+postcss>=8.4.32
+
+# ============================================
+# Root Dependencies
+# ============================================
+# Install via: npm install
+concurrently>=8.2.2
+
+# ============================================
+# Environment Variables Required
+# ============================================
+# Create backend/.env with:
+# DEEPSEEK_API_KEY=your_api_key_here
+# PORT=3001
+
+# ============================================
+# Installation Instructions
+# ============================================
+# 1. Install root dependencies: npm install
+# 2. Install frontend: cd frontend && npm install
+# 3. Install backend: cd backend && npm install
+# 4. Create backend/.env with your DeepSeek API key
+# 5. Run: npm run dev (from root directory)
+
+# ============================================
+# Node.js Version
+# ============================================
+# Requires Node.js 18 or higher
+# Check version: node --version
+
+# ============================================
+# External Services
+# ============================================
+# DeepSeek API: https://platform.deepseek.com/
+# Get API key from: https://platform.deepseek.com/
+
